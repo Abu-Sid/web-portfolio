@@ -1,7 +1,14 @@
 body{
     font-family: 'Mukta', sans-serif;
-    background-color: rgba(207, 68, 68, 0.295)
+    background-color: rgba(207, 68, 68, 0.295);
+    margin: auto;
+    
 }
+section{
+    height: 500px;
+
+}
+
 .name-highlight{
     color:chocolate
 }
@@ -13,4 +20,18 @@ body{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    border: 1px solid red;
+    background-image: url('image/top-banner.png');
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    background-color:lightblue;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    color: white;
+    font-weight: 700;
 }
